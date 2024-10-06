@@ -1,0 +1,14 @@
+
+//copied from the kitchen sink repo in github 
+
+{
+  "extends" : "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "lib": ["ES2015"],
+    "module": "NodeNext",
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "exclude": ["node_modules"],
+  "include": ["."]
+}
